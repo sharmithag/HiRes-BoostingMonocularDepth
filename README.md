@@ -9,18 +9,20 @@
 
 [![video](./figures/video_thumbnail.jpg)](https://www.youtube.com/watch?v=lDeI17pHlqo)
 
-##Approach 1
+## Approach 1
 For each segmented region, the corresponding mode of the depth map region will be
 the intensity of that region. This has worked considerably well for any kind of object in an image.
 The edges of the objects in the result are defined, however, the background depth variation has been
-neglected as only the mode of the entire background area is considered. The results for approach 1 in
-complex cases are discussed in the results section.
-##Approach 2
+neglected as only the mode of the entire background area is considered. 
+
+## Approach 2
 In approach 2, a simple bitwise AND operation is performed between the depth estimate and panoptic
 segmentation that gives out a depth estimate with significant depth variance in the background but in
 a layered manner. However, in most cases, each object in the foreground undergoes depth variation in
 layers alongside the background. This has worked considerably well for any kind of background in
-an image. The results for approach 2 are discussed in the results section.
+an image. 
+
+##### Check out the results with detailed explantion in the report attached 
 #### CREDITS:
 
 [1]: https://github.com/intel-isl/MiDaS/tree/v2
