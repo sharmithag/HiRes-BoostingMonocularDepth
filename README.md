@@ -22,7 +22,7 @@ a layered manner. However, in most cases, each object in the foreground undergoe
 layers alongside the background. This has worked considerably well for any kind of background in
 an image. 
 
-##### Check out the results with detailed explantion in the [![report attached] (https://github.com/sharmithag/HiRes-BoostingMonocularDepth/blob/main/Final_Project_Report.pdf)
+##### Check out the results with detailed explantion in the ![report attached] (https://github.com/sharmithag/HiRes-BoostingMonocularDepth/blob/main/Final_Project_Report.pdf)
 #### CREDITS:
 [1]: https://github.com/intel-isl/MiDaS/tree/v2
 [2]: https://github.com/aim-uofa/AdelaiDepth/tree/main/LeReS
